@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author: wmingdru
+# @Author: xguan
 # @Software: PyCharm
 
 import gradio as gr
