@@ -16,7 +16,7 @@ with gr.Blocks(theme=theme,fill_width=True,title="gradio and YOLO",js=js,css=css
         with gr.Column():
             with gr.Tab("选择视频"):
                 # 选择不同的视频源将会显示不同的组件
-                source_radio = gr.Radio(["视频文件或webcam", "URL"], label="选择视频源")
+                source_radio = gr.Radio(["视频文件", "URL"], label="选择视频源")
                 input_video = gr.File(label="视频文件",visible=False)
                 with gr.Row():
                     url_input = gr.Textbox(label="输入URL地址", visible=False,
